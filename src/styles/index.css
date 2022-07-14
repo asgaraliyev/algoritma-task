@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    color:black;
+}
+.my-input{
+    outline: none;
+    border: none;
+    background: transparent;
+    border: 1px solid #c3c3c3;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 4px ;
+}

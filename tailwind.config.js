@@ -5,27 +5,23 @@ module.exports = {
     darkMode: "class",
     theme: {
       colors: {
-        "primary-darker": "#1f1f1c",
-        "primary-dark": "#4a4a3b",
-        primary: "#96964b",
-        "primary-light": "#c9c98f",
-        "primary-lighter": "#ffffe3",
-        "secondary-darker": "#1f1c1c",
-        "secondary-dark": "#423333",
-        secondary: "#873e3e",
-        "secondary-light": "#c47c7c",
-        "secondary-lighter": "#ffd1d1",
-  
-        "primary-darker-border":"#1f1f1c7d",
-        "primary-lighter-border":"#ffffe361",
-  
+        "primary": "#2c8eff",
+        "primary_dark": "#02336a",
+        "primary_light": "#91c2fb",
+        "normal":"#585c6d",
+        "light":"#ffffff",
+        "dark":"#000",
+        "danger":"#ff5252",
+        "warning":"#f07930",
+        "success":"#28ab1d",
+        "info":"#47acff"
       },
     },
-    // safelist: [
-    //   {
-    //     pattern:
-    //       /(bg|text|border)-(primary|secondary)/,
-    //   },
-    // ],
+    safelist: [
+      {
+        pattern:
+          /(bg|text|border|shadow|)-(primary|primary_dark|primary_light|normal|dark|danger|warning|success|info)/,
+      },
+    ],
   };
   

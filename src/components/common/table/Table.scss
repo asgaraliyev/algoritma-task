@@ -1,0 +1,20 @@
+table.my-table {
+    * {
+      text-align: center;
+      
+    }
+    td{
+      padding:30px 0;
+    }
+   
+    td,th {
+      *{
+          margin:auto;
+        
+      }
+    }
+    th {
+      color: gray;
+    }
+  }
+  
